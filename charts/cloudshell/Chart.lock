@@ -1,0 +1,6 @@
+dependencies:
+- name: library-chart
+  repository: https://inseefrlab.github.io/helm-charts-datascience
+  version: 2.0.20
+digest: sha256:796c49276c74fce520c9913f63549df8299d6b81b77ef30df7b541eb6ed04288
+generated: "2025-05-02T14:52:55.054002287Z"

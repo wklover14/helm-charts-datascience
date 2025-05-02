@@ -1,0 +1,71 @@
+apiVersion: v1
+entries:
+  cloudshell:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2025-05-02T14:54:48.058107577Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-datascience
+      version: 2.0.20
+    description: Datalab  shell (ubuntu with webssh)
+    digest: 4cd3c373d33aa8e83b535bcbadac9fa50751b80250925a2383251440c2646184
+    home: https://datalab.sspcloud.fr
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/Onyxia.png
+    name: cloudshell
+    sources:
+    - https://github.com/InseeFrLab/shelly
+    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/cloudshell
+    type: application
+    urls:
+    - https://github.com/wklover14/helm-charts-datascience/cloudshell-4.3.1.tgz
+    version: 4.3.1
+  ubuntu:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2025-05-02T14:54:48.058976158Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.25
+    description: Ubuntu with a graphical user interface.
+    digest: 7f99f65b30fce5ac28941d4c97898ef10fe0070033c4b6c496f0f226dcf8906b
+    home: https://www.ubuntu-fr.org/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/ubuntu.png
+    keywords:
+    - Linux
+    - Tool
+    name: ubuntu
+    sources:
+    - https://github.com/InseeFrLab/ubuntu-vnc
+    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/ubuntu
+    type: application
+    urls:
+    - https://github.com/wklover14/helm-charts-datascience/ubuntu-5.4.6.tgz
+    version: 5.4.6
+  vscode:
+  - apiVersion: v2
+    appVersion: 2.6.1
+    created: "2025-05-02T14:54:48.059808448Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-datascience
+      version: 2.1.0
+    description: Visual Studio Code is a lightweight yet powerful source code editor
+      with a rich ecosystem of extensions for many languages.
+    digest: 317078ff56569a860a61a1cb64e4c78c10984ee70d6b656fa0d2b57a7a8eb6fa
+    home: https://code.visualstudio.com/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
+    keywords:
+    - IDE
+    - Python
+    name: vscode
+    sources:
+    - https://github.com/InseeFrLab/vscode
+    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/vscode
+    - https://github.com/cdr/code-server
+    type: application
+    urls:
+    - https://github.com/wklover14/helm-charts-datascience/vscode-6.9.1.tgz
+    version: 6.9.1
+generated: "2025-05-02T14:54:48.057170961Z"
