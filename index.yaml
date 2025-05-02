@@ -3,7 +3,7 @@ entries:
   cloudshell:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-05-02T14:54:48.058107577Z"
+    created: "2025-05-02T15:41:41.941369007Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
@@ -18,12 +18,12 @@ entries:
     - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/cloudshell
     type: application
     urls:
-    - https://github.com/wklover14/helm-charts-datascience/cloudshell-4.3.1.tgz
+    - https://wklover14.github.io/helm-charts-datascience/cloudshell-4.3.1.tgz
     version: 4.3.1
   ubuntu:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-05-02T14:54:48.058976158Z"
+    created: "2025-05-02T15:41:41.942535785Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -41,12 +41,12 @@ entries:
     - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/ubuntu
     type: application
     urls:
-    - https://github.com/wklover14/helm-charts-datascience/ubuntu-5.4.6.tgz
+    - https://wklover14.github.io/helm-charts-datascience/ubuntu-5.4.6.tgz
     version: 5.4.6
   vscode:
   - apiVersion: v2
     appVersion: 2.6.1
-    created: "2025-05-02T14:54:48.059808448Z"
+    created: "2025-05-02T15:41:41.943921637Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-datascience
@@ -66,6 +66,6 @@ entries:
     - https://github.com/cdr/code-server
     type: application
     urls:
-    - https://github.com/wklover14/helm-charts-datascience/vscode-6.9.1.tgz
+    - https://wklover14.github.io/helm-charts-datascience/vscode-6.9.1.tgz
     version: 6.9.1
-generated: "2025-05-02T14:54:48.057170961Z"
+generated: "2025-05-02T15:41:41.940356246Z"
