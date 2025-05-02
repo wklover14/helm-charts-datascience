@@ -1,2 +1,0 @@
-pinot is running  at {{ .Values.ingress.hostname }} 
-good luck!
